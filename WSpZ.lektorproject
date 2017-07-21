@@ -3,3 +3,4 @@ name = WSpZ
 
 [packages]
 lektor-webpack-support = 0.3
+lektor-disqus-comments = 0.2

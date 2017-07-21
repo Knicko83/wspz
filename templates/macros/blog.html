@@ -27,6 +27,8 @@
     <div class="col-md-offset-1 col-md-10">
       {% if from_index %}
         <a class="btn btn-block light-block clearfix" href="{{ post|url }}">Continue reading</a>
+      {% else %}
+        <div class="comments">{{ render_disqus_comments() }}</div>
       {% endif %}
     </div>
   </div>
